@@ -6,7 +6,7 @@ export function App() {
     <>
       <GlobalStyle />
       <Header />
-      <h1>Hello rocketseat</h1>
+      <h1>Hello Drielly💗</h1>
     </>
   );
 }
