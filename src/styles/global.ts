@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     --brown-light: #E0B485;
 
     --text-body: #F0F2F5;
+    --text-shade: #CECFD0;
     --text-title: #363F5F;
 
     --shape: #FFFFFF;
@@ -23,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   // font-size: 16px (Desktop)
   html {
     @media (max-width: 1080px) {
@@ -34,9 +35,9 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 87.5%; // 14px
     }
   }
-  
+
   // REM = 1rem = 16px
-  
+
   body {
     background: var(--background);
     --webkit-font-smoothing: antialiased;
