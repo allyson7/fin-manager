@@ -1,4 +1,3 @@
-import { React } from 'react';
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -81,8 +80,8 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     max-width: 576px;
     background: var(--background);
-    padding: 3px;
+    padding: 3rem;
     position: relative;
-
+    border-radius: 0.25rem;
   }
 `
