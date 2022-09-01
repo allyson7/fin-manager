@@ -16,6 +16,7 @@ export const Container = styled.form`
 
     border: 1px solid var(--gray-light);
     background: var(--gray-dark);
+    color: var(--text-shade);
 
     font-weight: 400;
     font-size: 1rem;
